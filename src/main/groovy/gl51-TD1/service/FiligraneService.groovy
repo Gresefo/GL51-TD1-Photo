@@ -1,12 +1,12 @@
 package gl51-TD1.service
 
 /**
- * Passe le logo en filigrane
+ * Apply logo
  */
 interface FiligraneService{
 
     /**
-     * Get et passe le logo en filigrane
+     * Applies logo
      */
-    void getEtFiligrane()
+    Photo applyLogo(Photo sourcePhoto)
 }

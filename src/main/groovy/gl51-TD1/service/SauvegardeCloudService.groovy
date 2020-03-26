@@ -1,12 +1,12 @@
 package gl51-TD1.service
 
 /**
- * Sauvegarde le Cloud
+ * Saves in the cloud
  */
 interface SauvegardeCloudService{
 
     /**
-     * Sauvegarde le cloud
+     * Saves in the cloud
      */
-    void sauvegardeCloud()
+    void saveCloud(Photo photo)
 }

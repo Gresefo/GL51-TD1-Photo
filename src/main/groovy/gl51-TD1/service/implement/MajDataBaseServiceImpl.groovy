@@ -6,13 +6,13 @@ import javax.inject.Inject
 
 -TD1.service.implement
 
+@Singleton
 class MajDataBaseServiceImpl implements MajDataBaseService{
 
-    @Inject
-    PhotoService photoService
 
     @Override
-    void majDataBase(){
+    void updateDataBase(int width, int height, string name){
+        return null
     }
 }
 

@@ -1,12 +1,12 @@
 package gl51-TD1.service
 
 /**
- * Met a jour la base de donnée
+ * Updates database
  */
 interface MajDataBaseService{
 
     /**
-     * Met a jour la base de données
+     * Updates database
      */
-    void majDataBase()
+    void updateDataBase(int width, int height, string name)
 }

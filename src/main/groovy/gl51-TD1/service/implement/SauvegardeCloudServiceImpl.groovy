@@ -6,13 +6,11 @@ import javax.inject.Inject
 
 -TD1.service.implement
 
+@Singleton
 class SauvegardeCloudServiceImpl implements SauvegardeCloudService{
 
-    @Inject
-    PhotoService photoService
-
     @Override
-    void sauvegardeCloud(){
-
+    void saveCloud(Photo photo){
+        return null
     }
 }

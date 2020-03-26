@@ -4,6 +4,7 @@ import gl51.PhotoService
 
 -TD1.service.implement
 
+@Singleton
 class PhotoServiceImpl implements PhotoService{
 
     @Override
