@@ -6,13 +6,11 @@ import javax.inject.Inject
 
 -TD1.service.implement
 
+@Singleton
 class FiligraneServiceImpl implements FiligraneService{
 
-    @Inject
-    PhotoService photoService
-
     @Override
-    void getEtFiligrane(){
+    void applyLogo(Photo sourcePhoto){
 
     }
 }

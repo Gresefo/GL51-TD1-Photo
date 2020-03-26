@@ -1,12 +1,13 @@
 package gl51-TD1.service
 
 /**
- * Redimensionne la taille d'une image
+ * Resizes the size of a picture
  */
 interface RedimensionnementService{
 
     /**
-     * Redimensionne l'image
+     * Resizes the picture
      */
-    void redimensionne()
+    Photo resize(Photo sourcePhoto)
+    Photo getAndResizeImage()
 }
